@@ -9,10 +9,10 @@ echo "=== PUBLISHER TICK $(date -u +%Y-%m-%dT%H:%M:%SZ) ==="
 
 cd "$PROJ"
 
-# Latest content file (by mtime) to avoid republishing
-LATEST="$(ls -1t content/*.md 2>/dev/null | head -n 1 || true)"
+# Latest content file (by mtime) for status — skip internal _files
+LATEST="$(ls -1t content/*.md 2>/dev/null | grep -v '^_.*\.md' | head -n 1 || true)"
 if [ -n "$LATEST" ]; then
-  echo "[publisher] latest content: $LATEST"
+  echo "[publisher] latest article: $LATEST"
 else
   echo "[publisher] no content files found"
 fi
@@ -25,7 +25,7 @@ git add -A
 if git diff --cached --quiet; then
   echo "[publisher] no new files to commit"
 else
-  git commit -m "publish: new article $(basename "$LATEST")"
+  git commit -m "publish: new article $(basename "$LATEST" .md)"
 fi
 
 # Push (non-fatal: no remote / no creds yet)
