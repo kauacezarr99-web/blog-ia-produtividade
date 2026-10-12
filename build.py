@@ -132,6 +132,8 @@ def main():
     for fn in sorted(os.listdir(CONTENT)):
         if not fn.endswith(".md"):
             continue
+        if fn.startswith("_"):
+            continue  # internal files (e.g. _topic-queue.md) — skip
         fm, body = parse_article(os.path.join(CONTENT, fn))
         title = fm.get("title", fn[:-3])
         slug = fm.get("slug", slugify(title))
