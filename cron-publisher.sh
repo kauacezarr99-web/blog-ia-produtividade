@@ -39,4 +39,10 @@ else
   echo "[publisher] no remote set -- skipping push (site built locally in ./public)"
 fi
 
+# Sync built site to root and docs/ so GitHub Pages serves all articles
+cp -f public/*.html public/*.xml public/.nojekyll . 2>/dev/null || true
+rm -rf docs 2>/dev/null || true
+cp -r public docs 2>/dev/null || true
+echo "[publisher] synced root + docs for GitHub Pages"
+
 echo "[publisher] DONE"
