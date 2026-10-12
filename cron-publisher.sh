@@ -10,7 +10,7 @@ echo "=== PUBLISHER TICK $(date -u +%Y-%m-%dT%H:%M:%SZ) ==="
 cd "$PROJ"
 
 # Latest content file (by mtime) for status — skip internal _files
-LATEST="$(ls -1t content/*.md 2>/dev/null | grep -v '^_.*\.md' | head -n 1 || true)"
+LATEST="$(for f in $(ls -1t content/*.md 2>/dev/null); do b="$(basename "$f")"; case "$b" in _*) ;; *) echo "$f"; break;; esac; done || true)"
 if [ -n "$LATEST" ]; then
   echo "[publisher] latest article: $LATEST"
 else
