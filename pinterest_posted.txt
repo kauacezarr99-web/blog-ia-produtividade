@@ -1,2 +1,3 @@
 notion-ai-transformar-notas-em-segundo-cerebro
 ferramentas-ia-para-produtividade-guia-pratico
+fireflies-ai-reunioes-sem-transcricao-automatica
