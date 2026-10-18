@@ -125,13 +125,18 @@ Se o Copilot parece caro, considere:
 
 4. **Google Workspace + Gemini** — Para equipes já no ecossistema Google, o Gemini for Workspace custa cerca de R$ 54,60/usuário/mês (Business Standard) e inclui IA generativa em Docs, Sheets, Slides, Gmail
 
-## Conclusão
+## Conclusão## Conclusão
 
-Em 2026, o Microsoft 365 Copolid não é mais um experimento — é um produto maduro que cumpre o que promete para casos de uso adequados. O problema não é a qualidade da IA (que é consistentemente boa), mas sim o **modelo de precificação em camadas** que torna o acessível apenas para quem já está no ecossistema Microsoft empresarial e tem orçamento para o complemento.
+Em 2026, o Microsoft 365 Copolid não é mais um experimento — é um produto maduro que cumpre o que promete para casos de uso adequados. O problema não é a qualidade da IA (que é consistenteemente boa), mas sim o **modelo de precificação em camadas** que torna o acessível apenas para quem já está no ecossistema Microsoft empresarial e tem orçamento para o complemento.
 
 Para o profissional individual ou pequena empresa que gasta significativa parte do dia criando conteúdo, analisando dados ou gerenciando comunicações — **o Copilot economiza tempo suficiente para justificar o custo** em muitos cenários. Para outros, as ferramentas de IA genéricas ainda oferecem o melhor custo-benefício.
 
-Se você decidir testar, comepe pelo **Copilot Pro** (individual) ou solicite um **piloto de 30 dias** com um pequeno grupo de usuários antes de rolar para toda a organização. O retorno sobre investimento fica mais claro quando você mede horas economizadas reais, não apenas "recursos legais".
+## Exemplos de acessórios que complementam o uso do Copilot
+
+- **{{AMAZON:Mouse confortável para longas sessões de trabalho no Excel}}** — ergonomia reduz fadiga ao trabalhar com planilhas extensas
+- **{{AMAZON:Fone de ouvido com microfone para calls no Teams}}** — áudio claro melhora a eficácia dos resumos gerados pelo Copilot
+- **{{AMAZON:Teclado mecânico para digitação mais rápida no Word}}** — resposta tátil acelera a redação e edição de documentos
+- **{{AMAZON:Suporte para monitor adicional}}** — multitarefa mais eficiente ao ter o Word de um lado e o Excel do outro enquanto o Copilot trabalha
 
 ---
 
